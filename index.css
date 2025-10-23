@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Main_container{
+    width:100vw;
+    height:100vh;
+    background-color: #561530;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+        
+/* for screen buttons 9E1C60 */
+ /* for screen display #F5AD18 */
+
+.Calculator_main{
+    width:300px;
+    height:380px;
+    background-color: #811844;
+     border-radius: 8px;
+}
+
+
+#Display_input input{
+    width: 100%;
+    padding:10px;
+    height: 52px;
+    /* list-style-type: none; */
+    border-style: none;
+    outline: #811844;
+    background-color: #F5AD18;
+    font-size: 1.3rem;
+}
+
+.buttons_cal{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap:12px
+    
+}
+
+.buttons_cal div{
+    width:50px;
+    height:50px;
+    background-color:#9E1C60  ;
+    margin: 4px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color:#FFFFFF;
+}
+
+.buttons_cal div:hover{
+    cursor: grabbing;
+}
+
+
+
+.Rst_equal_btn{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+
+
+.btn1{
+    width:42%;
+    /* border: 2px solid green; */
+}
+.btn2{
+    width: 42%;
+    /* border: 2px solid green; */
+   height:45px;
+}
+
+.btn1 button{
+    width:100%;
+    height:40px;
+    font-size: 1rem;
+    background-color: #F5F5F5;
+    border-style: none;
+    font-weight: bold;
+}
+.btn2 button{
+    width:100%;
+    height:40px;
+    font-size: 1rem;
+    background-color: #F5F5F5;
+    border-style: none;
+    font-weight: bold;
+}
+
+.btn2 button:hover{
+    background-color: #f5f5f57c;
+}
+
+.btn1 button:hover{
+    background-color: #f5f5f57c;
+}
+
